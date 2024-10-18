@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2ABDBB2CA17ABF00E96706 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2ABDBA2CA17AB000E96706 /* HomeView.swift */; };
+		BFBA2C5D2CC2664200D581A5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BFBA2C5C2CC2664200D581A5 /* Alamofire */; };
+		BFDC22F92C8F07F900048CF3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC22F82C8F07F900048CF3 /* StartView.swift */; };
+		BFDC22FB2C8F07FA00048CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDC22FA2C8F07FA00048CF3 /* Assets.xcassets */; };
+		BFDC22FF2C8F07FA00048CF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDC22FE2C8F07FA00048CF3 /* Preview Assets.xcassets */; };
+		BFDC23092C8F07FA00048CF3 /* Derma_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC23082C8F07FA00048CF3 /* Derma_iosTests.swift */; };
+		BFDC23132C8F07FA00048CF3 /* Derma_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC23122C8F07FA00048CF3 /* Derma_iosUITests.swift */; };
+		BFDC23152C8F07FA00048CF3 /* Derma_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC23142C8F07FA00048CF3 /* Derma_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFDC23052C8F07FA00048CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDC22EB2C8F07F900048CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFDC22F22C8F07F900048CF3;
+			remoteInfo = "Derma-ios";
+		};
+		BFDC230F2C8F07FA00048CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDC22EB2C8F07F900048CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFDC22F22C8F07F900048CF3;
+			remoteInfo = "Derma-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2ABDBA2CA17AB000E96706 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BFDC22F32C8F07F900048CF3 /* Derma-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Derma-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDC22F82C8F07F900048CF3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		BFDC22FA2C8F07FA00048CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFDC22FC2C8F07FA00048CF3 /* Derma_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Derma_ios.entitlements; sourceTree = "<group>"; };
+		BFDC22FE2C8F07FA00048CF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFDC23042C8F07FA00048CF3 /* Derma-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Derma-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDC23082C8F07FA00048CF3 /* Derma_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Derma_iosTests.swift; sourceTree = "<group>"; };
+		BFDC230E2C8F07FA00048CF3 /* Derma-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Derma-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDC23122C8F07FA00048CF3 /* Derma_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Derma_iosUITests.swift; sourceTree = "<group>"; };
+		BFDC23142C8F07FA00048CF3 /* Derma_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Derma_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFDC22F02C8F07F900048CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBA2C5D2CC2664200D581A5 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC23012C8F07FA00048CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC230B2C8F07FA00048CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFDC22EA2C8F07F900048CF3 = {
+			isa = PBXGroup;
+			children = (
+				BFDC22F52C8F07F900048CF3 /* Derma-ios */,
+				BFDC23072C8F07FA00048CF3 /* Derma-iosTests */,
+				BFDC23112C8F07FA00048CF3 /* Derma-iosUITests */,
+				BFDC22F42C8F07F900048CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFDC22F42C8F07F900048CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC22F32C8F07F900048CF3 /* Derma-ios.app */,
+				BFDC23042C8F07FA00048CF3 /* Derma-iosTests.xctest */,
+				BFDC230E2C8F07FA00048CF3 /* Derma-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDC22F52C8F07F900048CF3 /* Derma-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BF2ABDBA2CA17AB000E96706 /* HomeView.swift */,
+				BFDC22F82C8F07F900048CF3 /* StartView.swift */,
+				BFDC22FA2C8F07FA00048CF3 /* Assets.xcassets */,
+				BFDC22FC2C8F07FA00048CF3 /* Derma_ios.entitlements */,
+				BFDC22FD2C8F07FA00048CF3 /* Preview Content */,
+			);
+			path = "Derma-ios";
+			sourceTree = "<group>";
+		};
+		BFDC22FD2C8F07FA00048CF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC22FE2C8F07FA00048CF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFDC23072C8F07FA00048CF3 /* Derma-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC23082C8F07FA00048CF3 /* Derma_iosTests.swift */,
+			);
+			path = "Derma-iosTests";
+			sourceTree = "<group>";
+		};
+		BFDC23112C8F07FA00048CF3 /* Derma-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC23122C8F07FA00048CF3 /* Derma_iosUITests.swift */,
+				BFDC23142C8F07FA00048CF3 /* Derma_iosUITestsLaunchTests.swift */,
+			);
+			path = "Derma-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFDC22F22C8F07F900048CF3 /* Derma-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDC23182C8F07FA00048CF3 /* Build configuration list for PBXNativeTarget "Derma-ios" */;
+			buildPhases = (
+				BFDC22EF2C8F07F900048CF3 /* Sources */,
+				BFDC22F02C8F07F900048CF3 /* Frameworks */,
+				BFDC22F12C8F07F900048CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Derma-ios";
+			productName = "Derma-ios";
+			productReference = BFDC22F32C8F07F900048CF3 /* Derma-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFDC23032C8F07FA00048CF3 /* Derma-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDC231B2C8F07FA00048CF3 /* Build configuration list for PBXNativeTarget "Derma-iosTests" */;
+			buildPhases = (
+				BFDC23002C8F07FA00048CF3 /* Sources */,
+				BFDC23012C8F07FA00048CF3 /* Frameworks */,
+				BFDC23022C8F07FA00048CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFDC23062C8F07FA00048CF3 /* PBXTargetDependency */,
+			);
+			name = "Derma-iosTests";
+			productName = "Derma-iosTests";
+			productReference = BFDC23042C8F07FA00048CF3 /* Derma-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFDC230D2C8F07FA00048CF3 /* Derma-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDC231E2C8F07FA00048CF3 /* Build configuration list for PBXNativeTarget "Derma-iosUITests" */;
+			buildPhases = (
+				BFDC230A2C8F07FA00048CF3 /* Sources */,
+				BFDC230B2C8F07FA00048CF3 /* Frameworks */,
+				BFDC230C2C8F07FA00048CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFDC23102C8F07FA00048CF3 /* PBXTargetDependency */,
+			);
+			name = "Derma-iosUITests";
+			productName = "Derma-iosUITests";
+			productReference = BFDC230E2C8F07FA00048CF3 /* Derma-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDC22EB2C8F07F900048CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BFDC22F22C8F07F900048CF3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BFDC23032C8F07FA00048CF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BFDC22F22C8F07F900048CF3;
+					};
+					BFDC230D2C8F07FA00048CF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BFDC22F22C8F07F900048CF3;
+					};
+				};
+			};
+			buildConfigurationList = BFDC22EE2C8F07F900048CF3 /* Build configuration list for PBXProject "Derma-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFDC22EA2C8F07F900048CF3;
+			packageReferences = (
+				BFBA2C602CC2690C00D581A5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = BFDC22F42C8F07F900048CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFDC22F22C8F07F900048CF3 /* Derma-ios */,
+				BFDC23032C8F07FA00048CF3 /* Derma-iosTests */,
+				BFDC230D2C8F07FA00048CF3 /* Derma-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFDC22F12C8F07F900048CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC22FF2C8F07FA00048CF3 /* Preview Assets.xcassets in Resources */,
+				BFDC22FB2C8F07FA00048CF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC23022C8F07FA00048CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC230C2C8F07FA00048CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFDC22EF2C8F07F900048CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC22F92C8F07F900048CF3 /* StartView.swift in Sources */,
+				BF2ABDBB2CA17ABF00E96706 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC23002C8F07FA00048CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC23092C8F07FA00048CF3 /* Derma_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC230A2C8F07FA00048CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC23152C8F07FA00048CF3 /* Derma_iosUITestsLaunchTests.swift in Sources */,
+				BFDC23132C8F07FA00048CF3 /* Derma_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFDC23062C8F07FA00048CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFDC22F22C8F07F900048CF3 /* Derma-ios */;
+			targetProxy = BFDC23052C8F07FA00048CF3 /* PBXContainerItemProxy */;
+		};
+		BFDC23102C8F07FA00048CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFDC22F22C8F07F900048CF3 /* Derma-ios */;
+			targetProxy = BFDC230F2C8F07FA00048CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFDC23162C8F07FA00048CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFDC23172C8F07FA00048CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BFDC23192C8F07FA00048CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Derma-ios/Derma_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Derma-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "health.Derma-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDC231A2C8F07FA00048CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Derma-ios/Derma_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Derma-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "health.Derma-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFDC231C2C8F07FA00048CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "health.Derma-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Derma-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Derma-ios";
+			};
+			name = Debug;
+		};
+		BFDC231D2C8F07FA00048CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "health.Derma-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Derma-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Derma-ios";
+			};
+			name = Release;
+		};
+		BFDC231F2C8F07FA00048CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "health.Derma-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Derma-ios";
+			};
+			name = Debug;
+		};
+		BFDC23202C8F07FA00048CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "health.Derma-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Derma-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFDC22EE2C8F07F900048CF3 /* Build configuration list for PBXProject "Derma-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC23162C8F07FA00048CF3 /* Debug */,
+				BFDC23172C8F07FA00048CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDC23182C8F07FA00048CF3 /* Build configuration list for PBXNativeTarget "Derma-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC23192C8F07FA00048CF3 /* Debug */,
+				BFDC231A2C8F07FA00048CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDC231B2C8F07FA00048CF3 /* Build configuration list for PBXNativeTarget "Derma-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC231C2C8F07FA00048CF3 /* Debug */,
+				BFDC231D2C8F07FA00048CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDC231E2C8F07FA00048CF3 /* Build configuration list for PBXNativeTarget "Derma-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC231F2C8F07FA00048CF3 /* Debug */,
+				BFDC23202C8F07FA00048CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFBA2C5B2CC2664200D581A5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.0;
+			};
+		};
+		BFBA2C602CC2690C00D581A5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFBA2C5C2CC2664200D581A5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFBA2C5B2CC2664200D581A5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFDC22EB2C8F07F900048CF3 /* Project object */;
+}
